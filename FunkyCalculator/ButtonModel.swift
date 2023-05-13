@@ -29,7 +29,7 @@ enum Buttons: String {
         case .equal: return "="
         case .add: return "+"
         case .subtract: return "-"
-        case .multiply: return "x"
+        case .multiply: return "×"
         case .divide: return "÷"
         case .addSubtract: return "±"
         case .percent: return "%"
@@ -39,11 +39,11 @@ enum Buttons: String {
     var backgroundColor: Color {
         switch self {
         case .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .dot:
-            return Color(.red)
+            return Color(red: 157 / 255, green: 102 / 255, blue: 153 / 255)
         case .ac, .addSubtract, .percent:
-            return Color(.orange)
+            return Color(red: 77 / 255, green: 60 / 255, blue: 60 / 255)
         default:
-            return .yellow
+            return Color(red: 207 / 255, green: 160 / 255, blue: 145 / 255)
         }
     }
 }

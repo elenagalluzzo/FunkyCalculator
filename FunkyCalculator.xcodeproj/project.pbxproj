@@ -13,6 +13,7 @@
 		F3D836FE2A0F3B67007CF8FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D836FD2A0F3B67007CF8FC /* Preview Assets.xcassets */; };
 		F3D837052A0F3BCA007CF8FC /* Functionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D837042A0F3BCA007CF8FC /* Functionality.swift */; };
 		F3D837072A100800007CF8FC /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D837062A100800007CF8FC /* ButtonModel.swift */; };
+		F3D8370B2A102908007CF8FC /* GlobalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D8370A2A102908007CF8FC /* GlobalEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F3D836FD2A0F3B67007CF8FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3D837042A0F3BCA007CF8FC /* Functionality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functionality.swift; sourceTree = "<group>"; };
 		F3D837062A100800007CF8FC /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		F3D8370A2A102908007CF8FC /* GlobalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				F3D836F62A0F3B65007CF8FC /* FunkyCalculatorApp.swift */,
+				F3D8370A2A102908007CF8FC /* GlobalEnvironment.swift */,
 				F3D836F82A0F3B65007CF8FC /* ContentView.swift */,
 				F3D837062A100800007CF8FC /* ButtonModel.swift */,
 				F3D837042A0F3BCA007CF8FC /* Functionality.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				F3D836F92A0F3B65007CF8FC /* ContentView.swift in Sources */,
 				F3D837072A100800007CF8FC /* ButtonModel.swift in Sources */,
+				F3D8370B2A102908007CF8FC /* GlobalEnvironment.swift in Sources */,
 				F3D837052A0F3BCA007CF8FC /* Functionality.swift in Sources */,
 				F3D836F72A0F3B65007CF8FC /* FunkyCalculatorApp.swift in Sources */,
 			);
